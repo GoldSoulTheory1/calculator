@@ -1,0 +1,29 @@
+.calculator {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+  }
+  
+  .calculator input[type="text"] {
+    grid-column: 1 / -1;
+    padding: 10px;
+    font-size: 24px;
+    text-align: right;
+  }
+  
+  .calculator button {
+    font-size: 24px;
+    padding: 10px;
+    background-color: #ddd;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .calculator button:active {
+    background-color: #ccc;
+  }
